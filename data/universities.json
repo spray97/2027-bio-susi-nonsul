@@ -1,13 +1,13 @@
 {
   "meta": {
-    "title": "2027학년도 생명공학 계열 수시 논술 6選",
+    "title": "2027학년도 생명공학 계열 수시 논술 4選",
     "csatDate": "2026-11-19",
     "applyCommon": "2026-09-07 ~ 2026-09-11",
     "verifiedOn": "2026-09-06",
-    "status": "각 대학 2027학년도 수시모집요강 대조 완료 (일부 시각·경쟁률은 요강 미수록)",
+    "status": "각 대학 2027학년도 수시모집요강 대조 완료 (일부 시각·경쟁률·접수 포털은 요강 미수록)",
     "sortDefault": "examDateISO asc",
-    "count": 5,
-    "note": "5개 대학 논술고사일이 서로 겹치지 않음 (11/21·11/28·11/29·12/1·12/6)."
+    "count": 4,
+    "note": "4개 대학 모두 논술 100%·수능 이후 실시. 건국(11/21 토) → 경희(11/22 일) 연속. 이후 이화 11/29 · 가천 12/1."
   },
   "universities": [
     {
@@ -23,16 +23,16 @@
       "sourceUrl": "https://admission.konkuk.ac.kr/bbs/admission/6282/1195210/artclView.do"
     },
     {
-      "slug": "kwangwoon", "name": "광운대학교", "campus": "서울",
-      "college": "자연과학대학", "program": "화학과 · 전자바이오물리학과", "admissionType": "논술우수자",
-      "quota": "화학과 6명 · 전자바이오물리학과 5명", "applyPeriod": "9/8(화) 10:00~9/11(금) 17:00", "applyISO": "2026-09-08",
-      "examDate": "11/28(토) 자연계열", "examDateISO": "2026-11-28", "resultDate": "2026-12-18",
-      "csatMin": { "applies": false, "summary": "없음 (2027 전면 미적용)" },
-      "method": "논술 80 + 교과 20", "essayType": "수리논술 2문제 120분",
-      "flags": ["competition2026"],
-      "applySite": { "portal": "유웨이어플라이", "portalUrl": "https://www.uwayapply.com/", "admissionsUrl": "https://iphak.kw.ac.kr/", "confidence": "입시 자료 기준 (요강은 iphak.kw.ac.kr 경유 안내)" },
-      "sourcePdf": "1_row/kwangwoon_2027_수시모집요강.pdf",
-      "sourceUrl": "https://iphak.kw.ac.kr/mojib/mojib.php?m_type=JEOEGUK"
+      "slug": "kyunghee", "name": "경희대학교", "campus": "국제캠퍼스(용인)",
+      "college": "생명과학대학", "program": "유전생명공학과", "admissionType": "논술우수자",
+      "quota": "8명", "applyPeriod": "9/8(화) 10:00~9/11(금) 18:00", "applyISO": "2026-09-08",
+      "examDate": "11/22(일) 자연 09:00~11:00", "examDateISO": "2026-11-22", "examTime": "09:00~11:00", "resultDate": "2026-12-18",
+      "csatMin": { "applies": true, "summary": "2개합 5 + 한국사 5 (탐구 2과목 평균등급)" },
+      "method": "논술 100", "essayType": "수리논술 120분 (수학 6문항 내외, 요강 미수록·2차 출처)",
+      "flags": ["essayType", "competition2026"],
+      "applySite": { "portal": null, "portalUrl": null, "admissionsUrl": "https://iphak.khu.ac.kr/", "confidence": "요강 미명시 — '원서접수 사이트 추후 공지'. 최근 수년간 유웨이어플라이 사용(미검증)" },
+      "sourcePdf": "1_row/kyunghee_2027_수시모집요강.pdf",
+      "sourceUrl": "https://iphak.khu.ac.kr/submenu.do?menuurl=RnNfVbLHUGrJz9kJgEyRDQ%3D%3D&board_seq=6706"
     },
     {
       "slug": "ewha", "name": "이화여자대학교", "campus": "서울",
@@ -57,19 +57,6 @@
       "applySite": { "portal": "진학어플라이", "portalUrl": "https://www.jinhakapply.com/", "admissionsUrl": "https://admission.gachon.ac.kr/", "confidence": "입시 자료 기준 (요강은 '입학처 홈페이지 → 접수 대행기관' 안내)" },
       "sourcePdf": "1_row/gachon_2027_수시모집요강.pdf",
       "sourceUrl": "https://admission.gachon.ac.kr/admission/html/rolling/notice.asp"
-    },
-    {
-      "slug": "kookmin", "name": "국민대학교", "campus": "서울",
-      "college": "바이오융합대학", "program": "융합바이오공학과", "admissionType": "논술전형",
-      "quota": "6명", "applyPeriod": "9/7(월) 10:00~9/11(금) 18:00", "applyISO": "2026-09-07",
-      "examDate": "12/6(일) 자연계", "examDateISO": "2026-12-06", "resultDate": "2026-12-18",
-      "csatMin": { "applies": true, "summary": "자연 2개합 6" },
-      "method": "논술 100", "essayType": "약술형 (국어2+수학8) 90분",
-      "flags": [],
-      "competition2026": "융합바이오공학과 132.3:1 (실질 57.8:1)",
-      "applySite": { "portal": "유웨이어플라이", "portalUrl": "https://www.uwayapply.com/", "admissionsUrl": "https://admission.kookmin.ac.kr/", "confidence": "요강 p.9 명시" },
-      "sourcePdf": "1_row/kookmin_2027_수시모집요강.pdf",
-      "sourceUrl": "https://admission.kookmin.ac.kr/"
     }
   ]
 }
