@@ -41,7 +41,7 @@
   --maxw-wide: 1220px;
 
   --font: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
-  --font-display: 'Space Grotesk', var(--font);
+  --font-display: var(--font);
 }
 
 :root[data-theme="dark"] {
