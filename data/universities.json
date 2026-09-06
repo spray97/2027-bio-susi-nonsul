@@ -17,6 +17,7 @@
       "csatMin": { "applies": true, "summary": "2개합 5 + 한국사 5" },
       "method": "논술 100", "essayType": "수리논술 100분 (401~600자 서술형)",
       "flags": [],
+      "applySite": { "portal": "진학어플라이", "portalUrl": "https://www.jinhakapply.com/", "admissionsUrl": "https://admission.konkuk.ac.kr/", "confidence": "요강 p.49 명시" },
       "sourcePdf": "1_row/konkuk_2027_수시모집요강.pdf",
       "sourceUrl": "https://admission.konkuk.ac.kr/bbs/admission/6282/1195210/artclView.do"
     },
@@ -29,6 +30,7 @@
       "method": "논술 90 + 교과 10", "essayType": "통합논술형 자연 3문항 100분",
       "flags": ["examTime"],
       "competition2026": "자연계열 전체 52.67:1 (실질 16.99:1)",
+      "applySite": { "portal": "진학어플라이", "portalUrl": "https://www.jinhakapply.com/", "admissionsUrl": "https://admission.sookmyung.ac.kr/admission/html/rolling/subMain.asp", "confidence": "입시 자료 기준 (요강 미명시)" },
       "sourcePdf": "1_row/sookmyung_2027_수시모집요강.pdf",
       "sourceUrl": "https://admission.sookmyung.ac.kr/admission/html/rolling/guide.asp"
     },
@@ -40,6 +42,7 @@
       "csatMin": { "applies": false, "summary": "없음 (2027 전면 미적용)" },
       "method": "논술 80 + 교과 20", "essayType": "수리논술 2문제 120분",
       "flags": ["competition2026"],
+      "applySite": { "portal": "유웨이어플라이", "portalUrl": "https://www.uwayapply.com/", "admissionsUrl": "https://iphak.kw.ac.kr/", "confidence": "입시 자료 기준 (요강은 iphak.kw.ac.kr 경유 안내)" },
       "sourcePdf": "1_row/kwangwoon_2027_수시모집요강.pdf",
       "sourceUrl": "https://iphak.kw.ac.kr/mojib/mojib.php?m_type=JEOEGUK"
     },
@@ -51,6 +54,7 @@
       "csatMin": { "applies": true, "summary": "수학 포함 2개합 5" },
       "method": "논술 100", "essayType": "수리논술Ⅰ 100분·3문항",
       "flags": ["competition2026"],
+      "applySite": { "portal": null, "portalUrl": null, "admissionsUrl": "https://admission.ewha.ac.kr/", "confidence": "대행 포털 미확인 — 요강은 '원서접수 사이트에 직접 업로드'로만 안내" },
       "sourcePdf": "1_row/ewha_2027_수시모집요강.pdf",
       "sourceUrl": "https://admission.ewha.ac.kr/admission/html/rolling/guide.asp"
     },
@@ -62,6 +66,7 @@
       "csatMin": { "applies": true, "summary": "1개 영역 3등급" },
       "method": "논술 100", "essayType": "약술형 (국어5+수학8) 80분",
       "flags": ["applyStartTime", "competition2026"],
+      "applySite": { "portal": "진학어플라이", "portalUrl": "https://www.jinhakapply.com/", "admissionsUrl": "https://admission.gachon.ac.kr/", "confidence": "입시 자료 기준 (요강은 '입학처 홈페이지 → 접수 대행기관' 안내)" },
       "sourcePdf": "1_row/gachon_2027_수시모집요강.pdf",
       "sourceUrl": "https://admission.gachon.ac.kr/admission/html/rolling/notice.asp"
     },
@@ -74,6 +79,7 @@
       "method": "논술 100", "essayType": "약술형 (국어2+수학8) 90분",
       "flags": [],
       "competition2026": "융합바이오공학과 132.3:1 (실질 57.8:1)",
+      "applySite": { "portal": "유웨이어플라이", "portalUrl": "https://www.uwayapply.com/", "admissionsUrl": "https://admission.kookmin.ac.kr/", "confidence": "요강 p.9 명시" },
       "sourcePdf": "1_row/kookmin_2027_수시모집요강.pdf",
       "sourceUrl": "https://admission.kookmin.ac.kr/"
     }
