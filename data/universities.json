@@ -6,7 +6,8 @@
     "verifiedOn": "2026-09-06",
     "status": "각 대학 2027학년도 수시모집요강 대조 완료 (일부 시각·경쟁률은 요강 미수록)",
     "sortDefault": "examDateISO asc",
-    "note": "건국대·숙명여대 논술고사일이 11/21(토)로 동일 — 동시 응시 불가"
+    "count": 5,
+    "note": "5개 대학 논술고사일이 서로 겹치지 않음 (11/21·11/28·11/29·12/1·12/6)."
   },
   "universities": [
     {
@@ -20,19 +21,6 @@
       "applySite": { "portal": "진학어플라이", "portalUrl": "https://www.jinhakapply.com/", "admissionsUrl": "https://admission.konkuk.ac.kr/", "confidence": "요강 p.49 명시" },
       "sourcePdf": "1_row/konkuk_2027_수시모집요강.pdf",
       "sourceUrl": "https://admission.konkuk.ac.kr/bbs/admission/6282/1195210/artclView.do"
-    },
-    {
-      "slug": "sookmyung", "name": "숙명여자대학교", "campus": "서울",
-      "college": "이과대학", "program": "생명시스템학부", "admissionType": "논술우수자",
-      "quota": "5명", "applyPeriod": "9/8(화) 10:00~9/11(금) 17:00", "applyISO": "2026-09-08",
-      "examDate": "11/21(토) 자연 (시각 추후 공지)", "examDateISO": "2026-11-21", "resultDate": "2026-12-18",
-      "csatMin": { "applies": true, "summary": "2개합 5 (탐1)" },
-      "method": "논술 90 + 교과 10", "essayType": "통합논술형 자연 3문항 100분",
-      "flags": ["examTime"],
-      "competition2026": "자연계열 전체 52.67:1 (실질 16.99:1)",
-      "applySite": { "portal": "진학어플라이", "portalUrl": "https://www.jinhakapply.com/", "admissionsUrl": "https://admission.sookmyung.ac.kr/admission/html/rolling/subMain.asp", "confidence": "입시 자료 기준 (요강 미명시)" },
-      "sourcePdf": "1_row/sookmyung_2027_수시모집요강.pdf",
-      "sourceUrl": "https://admission.sookmyung.ac.kr/admission/html/rolling/guide.asp"
     },
     {
       "slug": "kwangwoon", "name": "광운대학교", "campus": "서울",
