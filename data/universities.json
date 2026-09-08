@@ -30,7 +30,7 @@
       "csatMin": { "applies": true, "summary": "2개합 5 + 한국사 5 (탐구 2과목 평균등급)" },
       "method": "논술 100", "essayType": "수리논술 120분 · 수학 6문항 내외 (요강 p.68)",
       "flags": ["competition2026"],
-      "applySite": { "portal": null, "portalUrl": null, "admissionsUrl": "https://iphak.khu.ac.kr/", "confidence": "요강 미명시 — '원서접수 사이트 추후 공지'. 최근 수년간 유웨이어플라이 사용(미검증)" },
+      "applySite": { "portal": "유웨이어플라이", "portalUrl": "https://www.uwayapply.com/", "admissionsUrl": "https://iphak.khu.ac.kr/", "confidence": "사용자 확인 (2026-09-08). 요강 본문에는 '원서접수 사이트 추후 공지'로만 표기" },
       "sourcePdf": "1_row/kyunghee_2027_수시모집요강.pdf",
       "sourceUrl": "https://iphak.khu.ac.kr/submenu.do?menuurl=RnNfVbLHUGrJz9kJgEyRDQ%3D%3D&board_seq=6706"
     },
@@ -42,7 +42,7 @@
       "csatMin": { "applies": true, "summary": "수학 포함 2개합 5" },
       "method": "논술 100", "essayType": "수리논술Ⅰ 100분·3문항",
       "flags": ["competition2026"],
-      "applySite": { "portal": null, "portalUrl": null, "admissionsUrl": "https://admission.ewha.ac.kr/", "confidence": "대행 포털 미확인 — 요강은 '원서접수 사이트에 직접 업로드'로만 안내" },
+      "applySite": { "portal": "진학어플라이", "portalUrl": "https://www.jinhakapply.com/", "admissionsUrl": "https://admission.ewha.ac.kr/", "confidence": "사용자 확인 (2026-09-08). 요강 본문에는 '원서접수 사이트에 직접 업로드'로만 안내" },
       "sourcePdf": "1_row/ewha_2027_수시모집요강.pdf",
       "sourceUrl": "https://admission.ewha.ac.kr/admission/html/rolling/guide.asp"
     },
