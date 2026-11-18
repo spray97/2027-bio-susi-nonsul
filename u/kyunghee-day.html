@@ -19,7 +19,7 @@
     <button class="theme-toggle" type="button" aria-label="다크 모드 전환"><iconify-icon icon="solar:moon-linear"></iconify-icon></button>
   </div>
 </header>
-<main class="wrap">
+<main class="wrap day">
   <nav class="crumb" aria-label="현재 위치">
     <a href="../index.html">수시 논술 요약</a><iconify-icon icon="solar:alt-arrow-right-linear"></iconify-icon>
     <a href="kyunghee.html">경희대학교</a><iconify-icon icon="solar:alt-arrow-right-linear"></iconify-icon><span>시험날 안내</span>
@@ -32,21 +32,21 @@
   <div class="stat-grid reveal" style="--i:1">
     <div class="stat"><div class="stat-core"><div class="label">시험일</div><div class="value">11/22(일)</div></div></div>
     <div class="stat"><div class="stat-core"><div class="label">입실 완료</div><div class="value">08:30</div></div></div>
-    <div class="stat"><div class="stat-core"><div class="label">시험 시간</div><div class="value">09:00~11:00 (120분)</div></div></div>
-    <div class="stat"><div class="stat-core"><div class="label">고사장</div><div class="value">서울캠퍼스 경희여자중·고등학교 제1고사실(중3-1반)</div></div></div>
+    <div class="stat stat-time"><div class="stat-core"><div class="label">시험 시간</div><div class="value">09:00~11:00 (120분)</div></div></div>
+    <div class="stat stat-venue"><div class="stat-core"><div class="label">고사장</div><div class="value">서울캠퍼스 경희여자중·고등학교 제1고사실(중3-1반)</div></div></div>
   </div>
   <section class="reveal"><span class="section-eyebrow">시간표</span><h2 class="section-title">당일 흐름</h2>
-    <dl class="deflist">
-      <dt>전날</dt><dd>수험표 출력 · 짐 싸기 · <strong>고사장까지 가는 길 미리 확인</strong>(일요일 이른 아침 대중교통 배차 확인)</dd>
-      <dt>07:30 전후</dt><dd>학교 도착 권장(제안)</dd>
-      <dt>08:30</dt><dd><strong>입실 완료 마감</strong></dd>
-      <dt>09:00</dt><dd>시험 시작</dd>
-      <dt>11:00</dt><dd>시험 종료</dd>
-    </dl>
-    <p class="prose muted" style="font-size:12.5px;">※ &ldquo;권장(제안)&rdquo; 시각은 안내문이 아니라 여유를 위한 제안입니다. 입실 마감 시각은 대학 공지 기준입니다.</p>
+    <ol class="timeline">
+      <li><time>전날</time><div>수험표 출력 · 짐 싸기 · <strong>고사장까지 가는 길 미리 확인</strong>(일요일 이른 아침 대중교통 배차 확인)</div></li>
+      <li><time>07:30 전후</time><div>학교 도착 권장(제안)</div></li>
+      <li class="key"><time>08:30</time><div><strong>입실 완료 마감</strong></div></li>
+      <li><time>09:00</time><div>시험 시작</div></li>
+      <li><time>11:00</time><div>시험 종료</div></li>
+    </ol>
+    <p class="day-note">※ &ldquo;권장(제안)&rdquo; 시각은 안내문이 아니라 여유를 위한 제안입니다. 입실 마감 시각은 대학 공지 기준입니다.</p>
   </section>
   <section class="reveal"><span class="section-eyebrow">이동</span><h2 class="section-title">고사장 가는 길</h2>
-    <ul class="prose" style="padding-left:18px; list-style:disc;">
+    <ul class="day-list">
       <li>모집단위는 국제캠퍼스(용인)이지만 <strong>시험장은 서울캠퍼스(회기동) 쪽 경희여자중·고등학교</strong>로 배정됩니다. 용인으로 가지 않도록 주의.</li>
       <li>고사실: <strong>제1고사실(중3-1반)</strong>.</li>
       <li>학교 정확한 위치와 대중교통 경로는 지도 앱으로 전날 확인하세요. 이 페이지에는 입학처가 공지한 정보만 적었습니다.</li>
@@ -60,12 +60,12 @@
     </ul>
   </section>
   <section class="reveal"><span class="section-eyebrow">유의</span><h2 class="section-title">고사 중 지킬 것</h2>
-    <ul class="prose" style="padding-left:18px; list-style:disc;">
+    <ul class="day-list">
       <li>이 페이지에는 경희대 고사 중 유의사항이 아직 반영되어 있지 않습니다. 입학처(iphak.khu.ac.kr) 고사장 확인 공지에서 확인한 뒤 보강하세요.</li>
     </ul>
   </section>
-  <section class="reveal"><span class="section-eyebrow">출처</span>
-    <p class="prose muted" style="font-size:12.5px;">경희대학교 수험표 안내(2026-11-18 확인), 2027학년도 수시모집요강 p.68. 고사장은 수험생별 배정이므로 <strong>본인 수험표의 고사장·시간이 우선</strong>입니다. 당일 현장 안내와 대학 입학처 공지를 최종 확인하세요.</p>
+  <section class="reveal day-src">
+    <p>출처: 경희대학교 수험표 안내(2026-11-18 확인), 2027학년도 수시모집요강 p.68. 고사장은 수험생별 배정이므로 <strong>본인 수험표의 고사장·시간이 우선</strong>입니다. 당일 현장 안내와 대학 입학처 공지를 최종 확인하세요.</p>
   </section>
   <nav class="pager" aria-label="이동">
     <a href="kyunghee.html"><div class="card"><iconify-icon icon="solar:document-text-linear"></iconify-icon><div><div class="dir">전형 정보</div><div class="pg-name">경희대학교 세부정보</div></div></div></a>

@@ -19,7 +19,7 @@
     <button class="theme-toggle" type="button" aria-label="다크 모드 전환"><iconify-icon icon="solar:moon-linear"></iconify-icon></button>
   </div>
 </header>
-<main class="wrap">
+<main class="wrap day">
   <nav class="crumb" aria-label="현재 위치">
     <a href="../index.html">수시 논술 요약</a><iconify-icon icon="solar:alt-arrow-right-linear"></iconify-icon>
     <a href="ewha.html">이화여자대학교</a><iconify-icon icon="solar:alt-arrow-right-linear"></iconify-icon><span>시험날 안내</span>
@@ -32,19 +32,19 @@
   <div class="stat-grid reveal" style="--i:1">
     <div class="stat"><div class="stat-core"><div class="label">시험일</div><div class="value">11/29(일)</div></div></div>
     <div class="stat"><div class="stat-core"><div class="label">입실 완료</div><div class="value">미발표</div></div></div>
-    <div class="stat"><div class="stat-core"><div class="label">시험 시간</div><div class="value">08:30 시작 (요강 일정 08:30~12:10, 수리논술Ⅰ 100분·3문항)</div></div></div>
-    <div class="stat"><div class="stat-core"><div class="label">고사장</div><div class="value">미발표</div></div></div>
+    <div class="stat stat-time"><div class="stat-core"><div class="label">시험 시간</div><div class="value">08:30 시작 (요강 일정 08:30~12:10, 수리논술Ⅰ 100분·3문항)</div></div></div>
+    <div class="stat stat-venue"><div class="stat-core"><div class="label">고사장</div><div class="value">미발표</div></div></div>
   </div>
   <section class="reveal"><span class="section-eyebrow">시간표</span><h2 class="section-title">당일 흐름</h2>
-    <dl class="deflist">
-      <dt>11/24(화)</dt><dd>이화여대 입학처 고사장 공지 여부 확인(피클 알림 예정)</dd>
-      <dt>발표 후</dt><dd>고사장·입실 시간 확인 → 이 페이지 보강</dd>
-      <dt>08:30</dt><dd>시험 시작(입실 마감 시각은 발표 후 확인)</dd>
-    </dl>
-    <p class="prose muted" style="font-size:12.5px;">※ &ldquo;권장(제안)&rdquo; 시각은 안내문이 아니라 여유를 위한 제안입니다. 입실 마감 시각은 대학 공지 기준입니다.</p>
+    <ol class="timeline">
+      <li><time>11/24(화)</time><div>이화여대 입학처 고사장 공지 여부 확인(피클 알림 예정)</div></li>
+      <li><time>발표 후</time><div>고사장·입실 시간 확인 → 이 페이지 보강</div></li>
+      <li class="key"><time>08:30</time><div>시험 시작(입실 마감 시각은 발표 후 확인)</div></li>
+    </ol>
+    <p class="day-note">※ &ldquo;권장(제안)&rdquo; 시각은 안내문이 아니라 여유를 위한 제안입니다. 입실 마감 시각은 대학 공지 기준입니다.</p>
   </section>
   <section class="reveal"><span class="section-eyebrow">이동</span><h2 class="section-title">고사장 가는 길</h2>
-    <ul class="prose" style="padding-left:18px; list-style:disc;">
+    <ul class="day-list">
       <li><strong>고사장 미발표</strong> — 발표 즉시 건물·입실 시간을 확인해 이 페이지에 반영합니다.</li>
       <li>시작 시각이 4개 대학 중 가장 이르므로(08:30) 이동 수단·출발 시각을 전날 정해 두세요.</li>
     </ul>
@@ -57,12 +57,12 @@
     </ul>
   </section>
   <section class="reveal"><span class="section-eyebrow">유의</span><h2 class="section-title">고사 중 지킬 것</h2>
-    <ul class="prose" style="padding-left:18px; list-style:disc;">
+    <ul class="day-list">
       <li>고사 중 유의사항은 이화여대 고사장 공지 이후 확인해 보강합니다.</li>
     </ul>
   </section>
-  <section class="reveal"><span class="section-eyebrow">출처</span>
-    <p class="prose muted" style="font-size:12.5px;">이화여자대학교 수험표 안내, 2027학년도 논술고사 안내(2026-11-18 확인). 고사장은 수험생별 배정이므로 <strong>본인 수험표의 고사장·시간이 우선</strong>입니다. 당일 현장 안내와 대학 입학처 공지를 최종 확인하세요.</p>
+  <section class="reveal day-src">
+    <p>출처: 이화여자대학교 수험표 안내, 2027학년도 논술고사 안내(2026-11-18 확인). 고사장은 수험생별 배정이므로 <strong>본인 수험표의 고사장·시간이 우선</strong>입니다. 당일 현장 안내와 대학 입학처 공지를 최종 확인하세요.</p>
   </section>
   <nav class="pager" aria-label="이동">
     <a href="ewha.html"><div class="card"><iconify-icon icon="solar:document-text-linear"></iconify-icon><div><div class="dir">전형 정보</div><div class="pg-name">이화여자대학교 세부정보</div></div></div></a>

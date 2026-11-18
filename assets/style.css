@@ -444,10 +444,48 @@ blockquote.quote::before {
   a { color: var(--text); }
 }
 
-/* 시험날 안내: 체크리스트 */
-.checklist { list-style: none; padding: 0; margin-top: 12px; display: grid; gap: 8px; }
-.checklist label { display: flex; gap: 12px; align-items: flex-start; padding: 12px 14px; border: 1px solid var(--border); border-radius: 12px; background: var(--surface); cursor: pointer; font-size: 14px; line-height: 1.5; }
-.checklist input { margin-top: 3px; width: 18px; height: 18px; flex: none; accent-color: var(--accent); }
+/* ---------- 시험날 안내 ---------- */
+.day > section, .day .stat-grid { max-width: 860px; }
+.day section { margin-top: 44px; }
+.day .section-title { font-size: 22px; margin-top: 10px; }
+.day .detail-head h1 { line-height: 1.25; }
+.day .detail-head .dept { margin-top: 10px; line-height: 1.6; }
+
+/* 시간표: 시각을 앞세운 세로 타임라인 */
+.timeline { list-style: none; margin: 16px 0 0; padding: 0; border-left: 2px solid var(--border); }
+.timeline li { position: relative; display: grid; grid-template-columns: 92px 1fr; gap: 12px; padding: 10px 0 10px 18px; font-size: 15px; line-height: 1.65; }
+.timeline li::before { content: ""; position: absolute; left: -6px; top: 17px; width: 10px; height: 10px; border-radius: 50%; background: var(--surface); border: 2px solid var(--border-focus); }
+.timeline time { font-weight: 700; color: var(--text); font-variant-numeric: tabular-nums; line-height: 1.65; }
+.timeline li.key { background: var(--accent-light); border-radius: 0 12px 12px 0; }
+.timeline li.key::before { background: var(--accent); border-color: var(--accent); }
+.timeline li.key time { color: var(--accent); }
+.day-note { margin-top: 12px; font-size: 13px; line-height: 1.6; color: var(--text-muted); }
+
+/* 목록 */
+.day-list { margin: 14px 0 0; padding-left: 20px; list-style: disc; font-size: 15px; line-height: 1.75; }
+.day-list li { margin-top: 10px; padding-left: 2px; }
+.day-list li::marker { color: var(--accent); }
+
+/* 체크리스트 */
+.checklist { list-style: none; padding: 0; margin-top: 14px; display: grid; gap: 10px; }
+.checklist label { display: flex; gap: 14px; align-items: flex-start; min-height: 52px; padding: 14px 16px; border: 1px solid var(--border); border-radius: 14px; background: var(--surface); cursor: pointer; font-size: 15px; line-height: 1.65; }
+.checklist input { margin-top: 4px; width: 20px; height: 20px; flex: none; accent-color: var(--accent); }
 .checklist input:checked + span { color: var(--text-faint); text-decoration: line-through; }
-.btn-day { margin-left: 6px; }
+
+.day-src { border-top: 1px solid var(--border); padding-top: 18px; }
+.day-src p { font-size: 13px; line-height: 1.7; color: var(--text-muted); }
+.btn-day { margin-top: 10px; }
+.btn-day-m { margin-top: 10px; width: 100%; justify-content: center; }
+
+@media (max-width: 960px) {
+  .day .stat-grid { grid-template-columns: repeat(2, 1fr); gap: 10px; }
+  .day .stat-venue, .day .stat-time { grid-column: 1 / -1; }
+}
+@media (max-width: 560px) {
+  .day.wrap { padding: 0 16px; }
+  .day section { margin-top: 36px; }
+  .day .stat .value { font-size: 15px; }
+  .timeline li { grid-template-columns: 72px 1fr; gap: 8px; padding-left: 14px; font-size: 14.5px; }
+  .day-list, .checklist label { font-size: 14.5px; }
+}
 @media print { .topbar, .pager, .theme-toggle, .grain { display: none; } }

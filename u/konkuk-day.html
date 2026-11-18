@@ -19,7 +19,7 @@
     <button class="theme-toggle" type="button" aria-label="다크 모드 전환"><iconify-icon icon="solar:moon-linear"></iconify-icon></button>
   </div>
 </header>
-<main class="wrap">
+<main class="wrap day">
   <nav class="crumb" aria-label="현재 위치">
     <a href="../index.html">수시 논술 요약</a><iconify-icon icon="solar:alt-arrow-right-linear"></iconify-icon>
     <a href="konkuk.html">건국대학교</a><iconify-icon icon="solar:alt-arrow-right-linear"></iconify-icon><span>시험날 안내</span>
@@ -32,23 +32,23 @@
   <div class="stat-grid reveal" style="--i:1">
     <div class="stat"><div class="stat-core"><div class="label">시험일</div><div class="value">11/21(토)</div></div></div>
     <div class="stat"><div class="stat-core"><div class="label">입실 완료</div><div class="value">13:30</div></div></div>
-    <div class="stat"><div class="stat-core"><div class="label">시험 시간</div><div class="value">14:00~15:40 (100분)</div></div></div>
-    <div class="stat"><div class="stat-core"><div class="label">고사장</div><div class="value">공학관B 366호 (76고사실)</div></div></div>
+    <div class="stat stat-time"><div class="stat-core"><div class="label">시험 시간</div><div class="value">14:00~15:40 (100분)</div></div></div>
+    <div class="stat stat-venue"><div class="stat-core"><div class="label">고사장</div><div class="value">공학관B 366호 (76고사실)</div></div></div>
   </div>
   <section class="reveal"><span class="section-eyebrow">시간표</span><h2 class="section-title">당일 흐름</h2>
-    <dl class="deflist">
-      <dt>전날</dt><dd>수험표 출력 · 짐 싸기 · 고사장 위치(공학관, 건물번호 21) 확인</dd>
-      <dt>12:00 전후</dt><dd>학교 도착 권장(제안) — 점심은 입실 전에 끝내기. 고사실 안에서는 음식 취식 금지</dd>
-      <dt>13:00</dt><dd>고사건물 입실 시작</dd>
-      <dt>13:30</dt><dd><strong>입실 완료 마감</strong> — 13:31 건물 일괄 폐쇄</dd>
-      <dt>14:00</dt><dd>시험 시작</dd>
-      <dt>15:30</dt><dd>답안지 교체 불가(마킹 오기입 주의)</dd>
-      <dt>15:40</dt><dd>시험 종료 → 15:50부터 퇴실, 자연계열은 안경 착용자 스마트안경 검사</dd>
-    </dl>
-    <p class="prose muted" style="font-size:12.5px;">※ &ldquo;권장(제안)&rdquo; 시각은 안내문이 아니라 여유를 위한 제안입니다. 입실 마감 시각은 대학 공지 기준입니다.</p>
+    <ol class="timeline">
+      <li><time>전날</time><div>수험표 출력 · 짐 싸기 · 고사장 위치(공학관, 건물번호 21) 확인</div></li>
+      <li><time>12:00 전후</time><div>학교 도착 권장(제안) — 점심은 입실 전에 끝내기. 고사실 안에서는 음식 취식 금지</div></li>
+      <li><time>13:00</time><div>고사건물 입실 시작</div></li>
+      <li class="key"><time>13:30</time><div><strong>입실 완료 마감</strong> — 13:31 건물 일괄 폐쇄</div></li>
+      <li><time>14:00</time><div>시험 시작</div></li>
+      <li><time>15:30</time><div>답안지 교체 불가(마킹 오기입 주의)</div></li>
+      <li><time>15:40</time><div>시험 종료 → 15:50부터 퇴실, 자연계열은 안경 착용자 스마트안경 검사</div></li>
+    </ol>
+    <p class="day-note">※ &ldquo;권장(제안)&rdquo; 시각은 안내문이 아니라 여유를 위한 제안입니다. 입실 마감 시각은 대학 공지 기준입니다.</p>
   </section>
   <section class="reveal"><span class="section-eyebrow">이동</span><h2 class="section-title">고사장 가는 길</h2>
-    <ul class="prose" style="padding-left:18px; list-style:disc;">
+    <ul class="day-list">
       <li>고사장 <strong>공학관B 366호</strong>(76고사실). 공학관 = 교내 건물번호 21.</li>
       <li>가까운 지하철역: <strong>건대입구(2·7호선)</strong>, <strong>어린이대공원(7호선)</strong>.</li>
       <li>입장은 정문(<strong>상허문·일감문·건국문</strong>)으로만. <strong>건국대병원을 통한 진입은 금지</strong>.</li>
@@ -67,7 +67,7 @@
     </ul>
   </section>
   <section class="reveal"><span class="section-eyebrow">유의</span><h2 class="section-title">고사 중 지킬 것</h2>
-    <ul class="prose" style="padding-left:18px; list-style:disc;">
+    <ul class="day-list">
       <li>필기구는 <strong>본교 배부분만</strong> 사용(컴퓨터용 사인펜·볼펜·0.5mm 샤프). 개인 필기구는 금지.</li>
       <li>휴대폰·스마트워치·이어폰 등 전자기기 일체 금지, 시작 전 전원을 끄고 가방에 보관. 울림·진동은 사용 여부와 무관하게 부정행위 처리될 수 있음.</li>
       <li>귀걸이·목걸이·반지·팔찌·피어싱 등 액세서리는 시험 전에 제거(착용·소지 자제). 모자·귀마개 금지.</li>
@@ -76,8 +76,8 @@
       <li>화장실 갈 때 휴대품 소지 금지(여성용품은 감독위원 확인 후 가능).</li>
     </ul>
   </section>
-  <section class="reveal"><span class="section-eyebrow">출처</span>
-    <p class="prose muted" style="font-size:12.5px;">건국대학교 입학처 「2027학년도 논술고사 수험생 유의사항(자연)」, 고사장 조회 화면(2026-11-18 확인). 고사장은 수험생별 배정이므로 <strong>본인 수험표의 고사장·시간이 우선</strong>입니다. 당일 현장 안내와 대학 입학처 공지를 최종 확인하세요.</p>
+  <section class="reveal day-src">
+    <p>출처: 건국대학교 입학처 「2027학년도 논술고사 수험생 유의사항(자연)」, 고사장 조회 화면(2026-11-18 확인). 고사장은 수험생별 배정이므로 <strong>본인 수험표의 고사장·시간이 우선</strong>입니다. 당일 현장 안내와 대학 입학처 공지를 최종 확인하세요.</p>
   </section>
   <nav class="pager" aria-label="이동">
     <a href="konkuk.html"><div class="card"><iconify-icon icon="solar:document-text-linear"></iconify-icon><div><div class="dir">전형 정보</div><div class="pg-name">건국대학교 세부정보</div></div></div></a>
