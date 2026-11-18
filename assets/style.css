@@ -443,3 +443,11 @@ blockquote.quote::before {
   .u-cards { display: none; }
   a { color: var(--text); }
 }
+
+/* 시험날 안내: 체크리스트 */
+.checklist { list-style: none; padding: 0; margin-top: 12px; display: grid; gap: 8px; }
+.checklist label { display: flex; gap: 12px; align-items: flex-start; padding: 12px 14px; border: 1px solid var(--border); border-radius: 12px; background: var(--surface); cursor: pointer; font-size: 14px; line-height: 1.5; }
+.checklist input { margin-top: 3px; width: 18px; height: 18px; flex: none; accent-color: var(--accent); }
+.checklist input:checked + span { color: var(--text-faint); text-decoration: line-through; }
+.btn-day { margin-left: 6px; }
+@media print { .topbar, .pager, .theme-toggle, .grain { display: none; } }
