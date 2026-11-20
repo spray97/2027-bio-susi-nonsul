@@ -494,3 +494,9 @@ blockquote.quote::before {
   .day-list, .checklist label { font-size: 15px; }
 }
 @media print { .topbar, .pager, .theme-toggle, .grain { display: none; } }
+
+/* 시험날 안내: 접수 포털 바로가기 */
+.day-links { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 16px; }
+.day-links .btn { gap: 8px; padding-left: 16px; }
+.day-links .btn iconify-icon { font-size: 18px; }
+@media (max-width: 560px) { .day-links .btn { flex: 1 1 100%; justify-content: center; } }
